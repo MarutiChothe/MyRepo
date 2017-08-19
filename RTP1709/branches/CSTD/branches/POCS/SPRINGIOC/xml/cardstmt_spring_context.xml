@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="cardStmtvalidator" class="org.barclays.service.cardstmtsvc.validator.CardStmtSvcValidator"/>
+	<bean id="cardStmtReqBuilder" class="org.barclays.service.cardstmtsvc.builders.CardStmtSvcReqBuilder"/>
+	<bean id="cardStmtResBuilder" class="org.barclays.service.cardstmtsvc.builders.CardStmtSvcResBuilder"/>
+    <bean id="cardStmtProcess" class="org.barclays.process.cardstmtsvc.impl.CardStmtSvcProcessImpl">
+        <property name="processReqBuilder" ref="processReqBuilder"/>
+        <property name="processResBuilder" ref="processResBuilder"/>
+    </bean>	
+    <bean id="processReqBuilder" class="org.barclays.process.cardstmtsvc.builders.CardStmtSvcProcessReqBuilder"/>
+    <bean id="processResBuilder" class="org.barclays.process.cardstmtsvc.builders.CardStmtSvcProcessResBuilder"/>
+</beans>

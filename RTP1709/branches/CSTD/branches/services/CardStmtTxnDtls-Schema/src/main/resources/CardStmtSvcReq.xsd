@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.barclays.org/schema/CardStmtSvc/Req"
+xmlns:req="http://www.barclays.org/schema/CardStmtSvc/Req" 
+elementFormDefault="qualified">
+<element name="CardStmtTxnDetailsReq" type="req:CardStmtTxnDetailsReqType"/>
+	<complexType name="CardStmtTxnDetailsReqType">
+		<sequence>
+			<element name="clientInfo" type="req:ClientInfoType" />
+			<element name="customerInfo" type="req:CustomerInfoType" />
+		     <element name="serviceDetails" type="req:ServiceDetailsType" />
+		</sequence>
+
+	</complexType>
+
+	<complexType name="ClientInfoType">
+		<sequence>
+			<element name="clientID" type="string" />
+			<element name="channelID" type="string" />
+			<element name="reqID" type="string" />
+		</sequence>
+
+	</complexType>
+
+	<complexType name="CustomerInfoType">
+		<sequence>
+			<element name="custname" type="string" />
+			<element name="cardNbr" type="string" />
+			<element name="expdate" type="string" />
+			<element name="sorcode" type="string" minOccurs="0" />
+			<element name="startdate" type="date" />
+			<element name="enddate" type="date" />
+			<element name="txntype">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="credit" />
+						<enumeration value="debit" />
+						<enumeration value="both" />
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="ServiceDetailsType">
+		<sequence>
+			<element name="serviceName" type="string"/>
+			<element name="methodname" type="string"/>
+			<element name="version" type="string"/>
+		</sequence>
+	</complexType>
+</schema>

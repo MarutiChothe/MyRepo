@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.barclays.card.stmt.txn</groupId>
+	<artifactId>cardstmttxndetails-TOp-POM</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>cardstmttxndetails-war Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<packaging>pom</packaging>
+	<modules>
+		<module>cardstmttxndetails-schema</module>
+		<module>cardstmttxndetails-Artifacts</module>
+		<module>cardstmttxndetails-intergrationlayer</module>
+		<module>cardstmttxndetails-processlayer</module>
+		<module>cardstmttxndetails-servicelayer</module>
+		<module>cardstmttxndetails-war</module>
+	</modules>
+	</project>

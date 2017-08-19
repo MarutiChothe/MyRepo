@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.barclays.org/schema/CardStmtSvc/Res"
+ xmlns:res="http://www.barclays.org/schema/CardStmtSvc/Res" 
+	elementFormDefault="qualified">
+	<element name="CardStmtTxnDetailsResp" type="res:CardStmtTxnDetailsRespType" />
+	<complexType name="CardStmtTxnDetailsRespType">
+		<sequence>
+			<element name="responsestatus" type="res:ResponsestatusType" />
+			<element name="transactionsdetails" type="res:TransactionsDtlsType" />
+		</sequence>
+	</complexType>
+	<complexType name="ResponsestatusType">
+		<sequence>
+			<element name="respCode" type="string" />
+			<element name="respMsg" type="string" />
+		</sequence>
+	</complexType>
+	<complexType name="TransactionsDtlsType">
+		<sequence>
+			<element name="transactiondetail" type="res:TransactionDetailType"
+				minOccurs="1" maxOccurs="4" />
+		</sequence>
+	</complexType>
+	<complexType name="TransactionDetailType">
+		<sequence>
+			<element name="transID" type="long" />
+			<element name="date" type="date" />
+			<element name="vendor" type="string" />
+			<element name="desc2222" type="string" />
+			<element name="amountDetails" type="decimal" />
+			<element name="transType" type="string" />
+			<element name="status" type="string" />
+		</sequence>
+	</complexType>
+</schema>

@@ -1,0 +1,101 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.barclays.card.stmt.txn</groupId>
+	<artifactId>CardStmtTxnDtls-IntgLayer</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>CardStmtTxnDtls-IntgLayer</name>
+	<description>This layer communicate with database</description>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>2.7.1</version>
+				<configuration>
+					<targetJdk>1.6</targetJdk>
+					<linkXref>true</linkXref>
+					<rulesets>
+						<ruleset>rulesets/basic.xml</ruleset>
+						<ruleset>rulesets/braces.xml</ruleset>
+						<ruleset>rulesets/clone.xml</ruleset>
+						<ruleset>rulesets/codesize.xml</ruleset>
+						<ruleset>rulesets/coupling.xml</ruleset>
+						<ruleset>rulesets/design.xml</ruleset>
+						<ruleset>rulesets/finalizers.xml</ruleset>
+						<ruleset>rulesets/imports.xml</ruleset>
+						<ruleset>rulesets/j2ee.xml</ruleset>
+						<ruleset>rulesets/javabeans.xml</ruleset>
+						<ruleset>rulesets/junit.xml</ruleset>
+						<ruleset>rulesets/logging-jakarta-commons.xml</ruleset>
+						<ruleset>rulesets/logging-java.xml</ruleset>
+						<ruleset>rulesets/migrating.xml</ruleset>
+						<ruleset>rulesets/optimizations.xml</ruleset>
+						<ruleset>rulesets/strictexception.xml</ruleset>
+						<ruleset>rulesets/strings.xml</ruleset>
+						<ruleset>rulesets/sunsecure.xml</ruleset>
+						<ruleset>rulesets/unusedcode.xml</ruleset>
+
+					</rulesets>
+				</configuration>
+
+				<dependencies>
+
+					<dependency>
+						<groupId>pmd</groupId>
+						<artifactId>pmd</artifactId>
+						<version>4.3</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.3</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<reporting>
+		<plugins>
+			<plugin>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>2.7.1</version>
+				<configuration>
+					<targetJdk>1.6</targetJdk>
+					<linkXref>true</linkXref>
+					<rulesets>
+						<ruleset>rulesets/basic.xml</ruleset>
+						<ruleset>rulesets/braces.xml</ruleset>
+						<ruleset>rulesets/clone.xml</ruleset>
+						<ruleset>rulesets/codesize.xml</ruleset>
+						<ruleset>rulesets/coupling.xml</ruleset>
+						<ruleset>rulesets/design.xml</ruleset>
+						<ruleset>rulesets/finalizers.xml</ruleset>
+						<ruleset>rulesets/imports.xml</ruleset>
+						<ruleset>rulesets/j2ee.xml</ruleset>
+						<ruleset>rulesets/javabeans.xml</ruleset>
+						<ruleset>rulesets/junit.xml</ruleset>
+						<ruleset>rulesets/logging-jakarta-commons.xml</ruleset>
+						<ruleset>rulesets/logging-java.xml</ruleset>
+						<ruleset>rulesets/migrating.xml</ruleset>
+						<ruleset>rulesets/optimizations.xml</ruleset>
+						<ruleset>rulesets/strictexception.xml</ruleset>
+						<ruleset>rulesets/strings.xml</ruleset>
+						<ruleset>rulesets/sunsecure.xml</ruleset>
+						<ruleset>rulesets/unusedcode.xml</ruleset>
+					</rulesets>
+
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</reporting>
+</project>

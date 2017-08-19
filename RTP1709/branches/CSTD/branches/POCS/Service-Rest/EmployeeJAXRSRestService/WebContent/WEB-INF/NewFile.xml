@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<books>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/1.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/2.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>968-0641723445</isbn>
+		<language>eng</language>
+		<name>Java Spring</name>
+		<pages>500 p</pages>
+		<price>1000</price>
+		<publication_year>2009</publication_year>
+		<weight>650g</weight>
+		<width>6inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/3.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/4.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/5.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/5.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/6.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/7.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/8.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/9.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+	<book>
+		<author>sreenivas</author>
+		<height>9inch</height>
+		<img_url>http://localhost:8888/StaticImages/books/10.jpeg</img_url>
+		<instock>y</instock>
+		<isbn>978-0641723445</isbn>
+		<language>eng</language>
+		<name>WebServices</name>
+		<pages>300 p</pages>
+		<price>500</price>
+		<publication_year>2010</publication_year>
+		<weight>550g</weight>
+		<width>7inch</width>
+	</book>
+</books>

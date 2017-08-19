@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping> 
+   <class name="com.sreenu.tech.hibernate.sec.levl.cache.Product" table="tb_product">  
+	   <cache usage="read-only" />    
+	   <id name="id" column="product_id">
+	   	<generator class="assigned"/>
+	   </id>
+	   <property name="name" column="product_name" length="10"/>
+	   <property name="price" column="product_price"/>
+	   
+	    <property name="manfacturingDate" column="product_mfg_date"/>
+
+    </class> 
+</hibernate-mapping>
